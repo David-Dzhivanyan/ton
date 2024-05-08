@@ -10,10 +10,10 @@ module.exports = [
 								]},
 							{elem: 'nav', tag: 'ul', content: [
 									{tag: 'li', content: [
-											{block: 'a', attrs: {href: '#section1'}, content: 'Home'},
+											{block: 'a', attrs: {href: 'https://twitter.com/NotgemTon'}, content: 'Twitter'},
 										]},
 									{tag: 'li', content: [
-											{block: 'a', attrs: {href: '#section2'}, content: 'About'},
+											{block: 'a', attrs: {href: 'https://t.me/notgemton'}, content: 'Telegram'},
 										]},
 									{tag: 'li', content: [
 											{block: 'a', attrs: {href: '#section3'}, content: 'Tokenomics'},
