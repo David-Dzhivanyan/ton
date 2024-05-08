@@ -1,5 +1,5 @@
 module.exports = [
-	{block: 'header', tag: 'header', content: [
+	{block: 'header', tag: 'header', attrs: {id: 'section1'}, content: [
 			{cls: 'container-xxl', content: [
 					{elem: 'inner', content: [
 							{elem: 'logo', content: [
@@ -10,13 +10,13 @@ module.exports = [
 								]},
 							{elem: 'nav', tag: 'ul', content: [
 									{tag: 'li', content: [
-											{block: 'a', attrs: {href: '#'}, content: 'Home'},
+											{block: 'a', attrs: {href: '#section1'}, content: 'Home'},
 										]},
 									{tag: 'li', content: [
-											{block: 'a', attrs: {href: '#'}, content: 'About'},
+											{block: 'a', attrs: {href: '#section2'}, content: 'About'},
 										]},
 									{tag: 'li', content: [
-											{block: 'a', attrs: {href: '#'}, content: 'Tokenomics'},
+											{block: 'a', attrs: {href: '#section3'}, content: 'Tokenomics'},
 										]},
 								]},
 							{block: 'btn', cls: 'btn-outline-light', content: 'Dex Tools'}

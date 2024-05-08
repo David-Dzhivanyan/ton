@@ -1,5 +1,5 @@
 module.exports = [
-	{block: 'diagram', content: [
+	{block: 'diagram', attrs: {id: 'section3'}, content: [
 			{elem: 'inner', content: [
 					{elem: 'title', content: 'Stake ETH, <span class="fw-bold">get</span> eETH - a natively \n' +
 							'restaked liquid <span class="fw-bold">staking</span> token that\n' +

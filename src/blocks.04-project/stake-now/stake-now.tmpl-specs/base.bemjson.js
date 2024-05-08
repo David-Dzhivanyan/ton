@@ -1,5 +1,5 @@
 module.exports = [
-	{block: 'stake-now', content: [
+	{block: 'stake-now', attrs: {id: 'section2'}, content: [
 			{elem: 'inner', content: [
 					{elem: 'title', content: 'Liquid Collective is the\n' +
 							'<span class="text-gradient">trusted</span> and <span class="text-gradient">secure</span> liquid\n' +
