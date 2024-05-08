@@ -1,0 +1,32 @@
+.header {
+	padding-top: 36px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+
+	.btn {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+}
+
+.header__logo {
+	display: flex;
+	flex-basis: 600px;
+	justify-content: flex-end;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	gap: 60px;
+
+	li {
+		list-style-type: none;
+	}
+}
