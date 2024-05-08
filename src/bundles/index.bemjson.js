@@ -1,6 +1,6 @@
 module.exports = {
   block: 'page',
-  title: 'Пустая',
+  title: 'Notgem',
   content: [
     require('../blocks.04-project/header/header.tmpl-specs/base.bemjson'),
     {block: 'main', content: [
