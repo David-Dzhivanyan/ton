@@ -19,7 +19,7 @@ module.exports = [
 											{block: 'a', attrs: {href: '#section3'}, content: 'Tokenomics'},
 										]},
 								]},
-							{block: 'btn', cls: 'btn-outline-light', content: 'Dex Tools'}
+							{block: 'btn', cls: 'btn-outline-light', attrs: {href: 'https://dedust.io/'}, content: 'Dex Tools'}
 						]}
 				]},
 		]},
