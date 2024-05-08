@@ -10,7 +10,7 @@
 	margin-left: calc(var(--bs-gutter-x)* -0.5);
 	margin-right: calc(var(--bs-gutter-x)* -0.5);
 	position: relative;
-	background-image: url("../../../public/images/footer/footer_bg.png");
+	background: url("../../../public/images/footer/footer_bg.png") no-repeat center / cover;
 	height: 100%;
 }
 
@@ -18,14 +18,22 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 20px;
 	max-width: 1050px;
 	width: 100%;
+	padding: 0 20px;
 	margin: auto auto 50px;
+
+	@include media-breakpoint-up(xl) {
+		padding: 0;
+	}
 }
 
 .footer__logo {
 	display: flex;
 	align-items: center;
+	line-height: 1;
 }
 
 .footer__ton {
