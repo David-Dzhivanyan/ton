@@ -6,8 +6,5 @@ module.exports = [
 							'fuels DeFi and decentralizes Ethereum.'},
 					{block: 'btn', cls: 'btn-primary', content: 'Buy Now'}
 				]},
-			{elem: 'bg', content: [
-					{block: 'img', lazy: true, src: '/images/stake-now/main_bg.png'}
-				]}
 		]}
 ];
