@@ -1,0 +1,80 @@
+.diagram {
+	position: relative;
+	margin-left: calc(var(--bs-gutter-x)* -0.25);
+	margin-right: calc(var(--bs-gutter-x)* -0.40);
+	padding-top: 75px;
+	height: 100%;
+}
+
+.diagram__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.diagram__title {
+	line-height: 1.45;
+	font-size: 36px;
+	text-align: center;
+	max-width: 610px;
+	margin: 0 auto 95px;
+}
+
+.diagram__main {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1250px;
+	width: 100%;
+}
+
+.diagram__info {
+	max-width: 546px;
+	padding: 70px 0 0 40px;
+
+}
+
+.diagram__logo {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 68px;
+	line-height: 1;
+	margin-bottom: 20px;
+
+	.img {
+		margin-right: 20px;
+	}
+}
+
+.diagram__supply {
+	display: flex;
+	justify-content: space-between;
+	font-size: 40px;
+	padding-right: 60px;
+	padding-bottom: 14px;
+	border-bottom: 2px solid $white;
+	margin-bottom: 18px;
+}
+
+.diagram__about {
+	max-width: 650px;
+	font-size: 30px;
+	line-height: 1.2;
+	margin: 0 auto 30px;
+	color: $gray-500;
+}
+
+.diagram__bg {
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+
+	.img {
+		width: 100%;
+	}
+}

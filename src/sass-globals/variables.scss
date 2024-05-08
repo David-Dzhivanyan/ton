@@ -2,6 +2,7 @@
 $icons-font-family: 'fi';
 
 $grid-gutter-width: 2.5rem !default;
+$font-family-sans-serif: "Myriad Pro Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 // scss-docs-start theme-color-variables
 $primary:       #247bf6;
@@ -37,6 +38,7 @@ $black:    #000;
 // spacers ->
 $spacers: (
 	0: 0,
+	18: 18px,
 	24: 24px,
 );
 // <- spacers
