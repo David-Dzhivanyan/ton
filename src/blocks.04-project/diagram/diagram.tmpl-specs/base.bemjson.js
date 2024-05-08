@@ -23,8 +23,5 @@ module.exports = [
 								]}
 						]}
 				]},
-			{elem: 'bg', content: [
-					{block: 'img', lazy: true, src: '/images/diagram/diagram_bg.png'}
-				]}
 		]},
 ];
