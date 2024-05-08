@@ -11,7 +11,7 @@ module.exports = [
 											{content: 'TON'}
 										]},
 									{elem: 'image', content: [
-											{block: 'img', lazy: true, src: '/images/header/NotGem.png'},
+											{block: 'img', lazy: true, src: './images/header/NotGem.png'},
 										]},
 									{elem: 'date', content: '2024 © NotGem'},
 								]},

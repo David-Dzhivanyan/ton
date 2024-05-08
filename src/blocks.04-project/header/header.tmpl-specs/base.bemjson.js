@@ -4,8 +4,8 @@ module.exports = [
 					{elem: 'inner', content: [
 							{elem: 'logo', content: [
 									{content: [
-											{block: 'img', cls: 'me-24', lazy: true, src: '/images/header/logo.png'},
-											{block: 'img', lazy: true, src: '/images/header/NotGem.png'}
+											{block: 'img', cls: 'me-24', lazy: true, src: './images/header/logo.png'},
+											{block: 'img', lazy: true, src: './images/header/NotGem.png'}
 										]},
 								]},
 							{elem: 'nav', tag: 'ul', content: [

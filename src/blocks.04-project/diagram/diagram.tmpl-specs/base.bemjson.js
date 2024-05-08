@@ -8,7 +8,7 @@ module.exports = [
 							{elem: 'info', content: [
 									{elem: 'description', content: [
 											{elem: 'logo', content: [
-													{block: 'img', lazy: true, src: '/images/diagram/economics.png'},
+													{block: 'img', lazy: true, src: './images/diagram/economics.png'},
 													{content: 'Tokenomics'}
 												]},
 											{elem: 'supply', content: [
@@ -19,7 +19,7 @@ module.exports = [
 										]},
 								]},
 							{elem: 'img', content: [
-									{block: 'img', lazy: true, src: '/images/diagram/diagram.png'}
+									{block: 'img', lazy: true, src: './images/diagram/diagram.png'}
 								]}
 						]}
 				]},
